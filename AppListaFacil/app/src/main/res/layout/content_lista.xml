@@ -8,4 +8,9 @@
     tools:context=".ListaActivity"
     tools:showIn="@layout/activity_lista">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvProdutos" ></ListView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
