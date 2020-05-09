@@ -65,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                logar();
+               // logar();
+                Intent intent = new Intent(MainActivity.this, ListaActivity.class);
+                startActivity( intent );
             }
         });
 
@@ -101,5 +103,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
         }
+
+
     }
 }
